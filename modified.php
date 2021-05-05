@@ -107,9 +107,6 @@ include "connection.php";
         mysqli_close($conn);
 		?>   	
 		</tr>	
-			<footer>
-			Δημιουργήθηκε από τη Χριστίνα Κίτσου, Α.Μ. 1064635<br />
-		</footer>	
       </table> 
 	  
     </body> 		
