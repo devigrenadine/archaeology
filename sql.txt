@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `registration` (
+`id` int(11) NOT NULL,
+  `categ` varchar(25) NOT NULL,
+  `title` varchar(25) NOT NULL,
+  `date`  varchar(20) NOT NULL,
+  `place`  varchar(25) NOT NULL,
+  `description`  longtext NOT NULL,
+  `height`  double NOT NULL,
+  `length`  double NOT NULL,
+  `archname` varchar(60) NOT NULL,
+  `service`  varchar(60) NOT NULL
+);
+
+ALTER TABLE `registration`
+ ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `registration`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE `registration` ADD `current` TIMESTAMP NOT NULL AFTER `service`;
