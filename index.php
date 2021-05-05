@@ -52,10 +52,7 @@
 					<button type="submit" name=>Καταχώρηση</button>				
 				</div> 
 			</div>			
-        </form>
-			<footer>
-				Δημιουργήθηκε από τη Χριστίνα Κίτσου, Α.Μ. 1064635<br />
-			</footer>		
+        </form>	
 		</td>
 	</tr>
 </tbody>
